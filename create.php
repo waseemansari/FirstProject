@@ -5,5 +5,5 @@ if(isset($_GET['email']) && isset($_GET['password'])){
     $password = $_GET['password'];
             $q=mysqli_query($con,"INSERT INTO user(email,password) VALUES('$email',$password)");
 
-}
+} 
 ?>
